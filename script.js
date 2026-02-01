@@ -15,6 +15,6 @@ noBtn.addEventListener('mouseover', () => {
 // Change content when "Yes" is clicked
 function celebrate() {
     question.innerHTML = "YAY! See you then! 💖";
-    catImg.src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpueG56Z3B4Z3B4Z3B4Z3B4Z3B4Z3B4Z3B4Z3B4Z3B4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/vY08KIDVf4moxp5NUK/giphy.gif";
+    catImg.src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpueG56Z3B4Z3B4Z3B4Z3B4Z3B4Z3B4Z3B4Z3B4Z3B4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/MDJ9IbxxvDUQM/giphy.gif";
     noBtn.style.display = 'none'; // Hide the No button
 }
