@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fce4ec; /* Light pink background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+#container {
+    text-align: center;
+}
+
+#cat-img {
+    width: 200px;
+}
+
+.buttons {
+    margin-top: 20px;
+    position: relative; /* Allows child buttons to move relative to this container */
+    height: 100px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#yesBtn {
+    background-color: #ff4081;
+    color: white;
+}
+
+#noBtn {
+    background-color: #bdbdbd;
+    color: white;
+    position: absolute; /* Essential for the jumping effect */
+}
